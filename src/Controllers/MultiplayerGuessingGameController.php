@@ -16,6 +16,6 @@ class MultiplayerGuessingGameController
 
         print_r($game->getGameStrings());
         echo PHP_EOL;
-        $game->submitGuess('Player1', 'power');
+        $game->submitGuess(playerName: 'Player1', submission: 'power');
     }
 }
